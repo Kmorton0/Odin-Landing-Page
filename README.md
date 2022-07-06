@@ -10,4 +10,3 @@ The goal is to get our project as close as we can to the design, so do not worry
 
 Finally, feel free to substitute your own content into this design. The images have some meaningless dummy content, but if you want to make up a business and personalize this page, please feel free to do so! Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too. Pexels, Pixabay, and Unsplash are all great sites to use to grab free-to-use images.
 
-image.png
