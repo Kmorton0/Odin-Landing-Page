@@ -1,18 +1,220 @@
-.header {
-    background-color: darkslategray ;
-
+body{
+    margin: 0;
 }
 
-.body {
-    background-color: aliceblue;
-
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.body2 {
-    background-color: lightgrey;
-
+.container > .header{
+    background-color: #1f2937;
+    height: 525px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer {
-    background-color: darkblue;
+/*
+    Navigation bar and "Header Logo"
+ */
+
+.nav-bar > .nav-links a{
+    font-size: 18px;
+    color: #a8a9ac;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header > .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 200px;
+}
+
+.nav-bar > #header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/*
+    Header content
+*/
+
+.header > .header-content{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: auto 200px;
+}
+
+.header-content > .cell-one, .header-content >.cell-two{
+    flex: 1 1 100%;
+    width: auto;
+    min-height: 200px;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content > .cell-one > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.header-content > .cell-one p{
+    font-size: 18px;
+    color: #a8a9ac;
+    margin: 0;
+}
+
+.header-content > .cell-one > button{
+    width: 125px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-content > .cell-two{
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+.header-content > .cell-two > img{
+    height: inherit;
+    display: inline-block;
+}
+
+/*
+    Info Section
+*/
+
+.container > .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info > .items-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.items-row > .item{
+    width: 155px;
+    height: 300px;
+    text-align: center;
+    font-size: 18px;
+    color: #797a7a;    
+}
+
+.items-row > .item > .square{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.square > img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+/*
+    Quote Section
+*/
+
+.container > .quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+    color: #4c5057;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+.quote > #quote-author{
+    align-self: flex-end;
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/*
+    Sign up - "Call to action"
+*/
+
+.container > .signup{
+    background-color: #3882f6;
+    margin: 100px;
+    width: 1000px;
+    height: 150px;
+    color: #f5faf8;
+    border-radius: 10px;
+    display: flex;
+}
+
+.signup > .cell-one, .signup > .cell-two{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup > .cell-one > h2 , .signup > .cell-one > p{
+    margin: 0;
+}
+
+.signup > .cell-one{
+    padding: 0 100px;
+}
+
+.signup > .cell-two > button{
+    border: 2px solid #f5faf8;
+    background-color: inherit;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #f5faf8;
+}
+
+/*
+    Footer 
+*/
+
+.footer{
+    background-color: #1f2937;
+    color: #f5faf8;
+    font-size: 18px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
