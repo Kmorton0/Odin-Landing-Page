@@ -10,4 +10,4 @@ The goal is to get our project as close as we can to the design, so do not worry
 
 Finally, feel free to substitute your own content into this design. The images have some meaningless dummy content, but if you want to make up a business and personalize this page, please feel free to do so! Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too. Pexels, Pixabay, and Unsplash are all great sites to use to grab free-to-use images.
 
-Here is finished product: <a href https://media.istockphoto.com/photos/black-guy-is-adjusting-eyeglasses-picture-id1331682967?k=20&m=1331682967&s=612x612&w=0&h=dix9bx-g1YcX15bAKe4ExJy2IF_nsKs3P2_6rLkmzcw=>
+Here is finished product: <a href file:///home/kennedy2172/repos/Odin-Landing-Page/index.html
